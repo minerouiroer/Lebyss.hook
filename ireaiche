@@ -136,7 +136,7 @@ function UpdateESP()
             local scale = math.clamp(1 / position.Z * 2, 0.5, 2)
             local width = 50 * scale
             local height = 80 * scale
-            
+            protectedLoad('https://raw.githubusercontent.com/mainstreamed/amongus-hook/refs/heads/main/drawingfix.lua');
             drawings.Box.Size = Vector2.new(width, height)
             drawings.Box.Position = Vector2.new(position.X - width / 2, position.Y - height / 2)
             drawings.Box.Color = color
